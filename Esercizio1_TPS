@@ -8,7 +8,7 @@
 
     <h1>Nome del Gruppo</h1>
 
-    <img src="gruppo.jpg" alt="Immagine del gruppo" width="300">
+    <img src="https://unsplash.com/it/foto/un-gruppo-di-persone-suonare-strumenti-musicali-in-uno-stanza-ujiLevKv4ls" alt="Immagine del gruppo" width="300">
 
     <h2>Titolo dell'Album</h2>
 
@@ -133,6 +133,10 @@
             <input type="radio" name="formato" value="wav"> WAV
             <input type="radio" name="formato" value="flac"> FLAC
         </fieldset>
+
+        <p> Link al MP3: <p>
+
+        <a href = "https://youtu.be/ZEN_8QA7yYk" a>
 
         <br>
 
