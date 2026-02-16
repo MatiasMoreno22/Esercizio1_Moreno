@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Acquisto MP3</title>
+</head>
+<body>
+
+    <h1>Nome del Gruppo</h1>
+
+    <img src="gruppo.jpg" alt="Immagine del gruppo" width="300">
+
+    <h2>Titolo dell'Album</h2>
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>Brano 1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Brano 2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Brano 3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Brano 4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Brano 5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Brano 6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Brano 7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Brano 8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Brano 9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Brano 10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Brano 11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Brano 12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Brano 13</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Brano 14</td>
+        </tr>
+    </table>
+
+    <form>
+
+        <fieldset id="dati">
+            <legend>Dati personali</legend>
+
+            Nome:<br>
+            <input type="text" name="nome"><br><br>
+
+            Indirizzo:<br>
+            <input type="text" name="indirizzo"><br><br>
+
+            CAP:<br>
+            <input type="text" name="cap"><br><br>
+
+            Città:<br>
+            <input type="text" name="citta"><br><br>
+
+            Email:<br>
+            <input type="email" name="email"><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset id="brani">
+            <legend>Dati pagamento e brano</legend>
+
+            Numero carta di credito:<br>
+            <input type="text" name="carta"><br><br>
+
+            Circuito carta:<br>
+            <select name="circuito">
+                <option>Visa</option>
+                <option>Mastercard</option>
+                <option>American Express</option>
+            </select><br><br>
+
+            Codice di sicurezza:<br>
+            <input type="text" name="cvv"><br><br>
+
+            Brano da acquistare:<br>
+            <select name="brano">
+                <option>Brano 1</option>
+                <option>Brano 2</option>
+                <option>Brano 3</option>
+                <option>Brano 4</option>
+                <option>Brano 5</option>
+                <option>Brano 6</option>
+                <option>Brano 7</option>
+                <option>Brano 8</option>
+                <option>Brano 9</option>
+                <option>Brano 10</option>
+                <option>Brano 11</option>
+                <option>Brano 12</option>
+                <option>Brano 13</option>
+                <option>Brano 14</option>
+            </select><br><br>
+
+            Formato:<br>
+            <input type="radio" name="formato" value="mp3"> MP3
+            <input type="radio" name="formato" value="wav"> WAV
+            <input type="radio" name="formato" value="flac"> FLAC
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Acquista">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
