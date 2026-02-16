@@ -134,10 +134,6 @@
             <input type="radio" name="formato" value="flac"> FLAC
         </fieldset>
 
-        <p> Link al MP3: <p>
-
-        <a href = "https://youtu.be/ZEN_8QA7yYk" </a>
-
         <br>
 
         <input type="submit" value="Acquista">
